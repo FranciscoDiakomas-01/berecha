@@ -33,30 +33,6 @@ export default function Header() {
   return (
     <div>
       <header className=" lg:flex hidden  z-[300] flex-col fixed top-0 left-0 w-full dark:bg-transparent dark:backdrop-blur-3xl bg-white  lg:px-20 py-3 gap-3">
-        <span className="flex  justify-between items-center">
-          <div className="flex gap-3 items-center text-neutral-400 dark:text-white">
-            <select name="" id="">
-              <option value="pt">PT</option>
-              <option value="en">EN</option>
-            </select>
-            <a href="">Suporte</a>
-          </div>
-
-          <div className="flex gap-3 items-center">
-            <a href="" className="text-neutral-400 dark:text-white">
-              Blog
-            </a>
-            <Button
-              variant={"outline"}
-              onClick={() => {
-                setTheme(theme == "dark" ? "ligth" : "dark");
-              }}
-            >
-              {theme == "dark" ? <Sun /> : <Moon />}
-            </Button>
-          </div>
-        </span>
-
         <span className="flex justify-between border-b pb-2">
           <a
             href="#"
@@ -128,30 +104,24 @@ export default function Header() {
                     </a>
                   </li>
                 ))}
-                <a href="">Suporte</a>
-                <a href="" className="text-neutral-400 dark:text-white">
+                <a
+                  href=""
+                  className=" hover:text-blue-500 transition-colors duration-300"
+                >
+                  Suporte
+                </a>
+                <a href="" className=" hover:text-blue-500 transition-colors duration-300">
                   Blog
                 </a>
               </ul>
             </nav>
             <span className="grid  gap-2">
-              <div className="grid grid-cols-2 gap-2">
-                <Button
-                  className="h-[40px] text-primary border-primary/30"
-                  variant={"outline"}
-                >
-                  Saiba mais
-                </Button>
-                <Button
-                  variant={"outline"}
-                  onClick={() => {
-                    setTheme(theme == "dark" ? "ligth" : "dark");
-                  }}
-                >
-                  {theme == "dark" ? <Sun /> : <Moon />}
-                </Button>
-              </div>
-
+              <Button
+                className="h-[40px] text-primary border-primary/30"
+                variant={"outline"}
+              >
+                Saiba mais
+              </Button>
               <Button className="h-[40px]">Fale Connosco</Button>
             </span>
           </DialogContent>
