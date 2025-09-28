@@ -5,6 +5,7 @@ import { TracingBeam } from "../ui/tracing-beam";
 import Banner from "../Banner";
 import cover1 from "@/assets/card.jpeg";
 import cover from "@/assets/visa.jpeg";
+import tpa from "@/assets/tpa.jpeg";
 export default function Products() {
   return (
     <section
@@ -89,8 +90,7 @@ const dummyContent = [
       </>
     ),
     badge: "Soluções TPA",
-    image:
-      "https://d64gsuwffb70l.cloudfront.net/68d2ae5ce4dfe32fc6aa4de5_1758637706834_e56e323c.webp",
+    image: tpa.src,
   },
   {
     title: "Infraestrutura completa para cartões Visa e Mastercard",
