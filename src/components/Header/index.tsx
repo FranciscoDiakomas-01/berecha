@@ -93,7 +93,7 @@ export default function Header() {
         </span>
       </header>
 
-      <header className="flex justify-between z-[300]  fixed top-0 left-0 w-full dark:bg-transparent dark:backdrop-blur-3xl bg-white p-4 gap-3">
+      <header className="flex lg:hidden justify-between z-[300]  fixed top-0 left-0 w-full dark:bg-transparent dark:backdrop-blur-3xl bg-white p-4 gap-3">
         <a
           href="#"
           className="flex  items-center font-semibold lg:text-2xl space-x-1"

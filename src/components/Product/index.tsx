@@ -3,7 +3,7 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../ui/tracing-beam";
 import Banner from "../Banner";
-
+import cover1 from "@/assets/card.jpeg";
 export default function Products() {
   return (
     <section
@@ -64,8 +64,7 @@ const dummyContent = [
       </>
     ),
     badge: "Cartões",
-    image:
-      "https://d64gsuwffb70l.cloudfront.net/68d2ae5ce4dfe32fc6aa4de5_1758637706076_fe2dcdaa.webp",
+    image: cover1.src,
   },
   {
     title: "Terminais de pagamento automático modernos",

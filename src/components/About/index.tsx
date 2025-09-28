@@ -56,7 +56,7 @@ export default function About() {
         ))}
       </span>
 
-      <div className=" lg:flex hidden w-full lg:w-[70%] py-24 sm:py-32">
+      <div className="lg:flex flex-col hidden w-full lg:w-[70%] py-24 sm:py-32">
         <div className="w-full px-6 lg:px-8">
           <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4">
             {stats.map((stat) => (

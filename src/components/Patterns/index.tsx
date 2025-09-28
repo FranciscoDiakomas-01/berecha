@@ -24,12 +24,12 @@ export default function Patterns() {
       <Image className="absolute w-full h-full " src={bg} alt="bg" />
 
       <span className="z-40 bg-black/20 lg:flex-row flex-col gap-5  backdrop-blur-[10px] justify-between relative p-3 w-full h-full flex">
-        <div className=" flex flex-col items-center gap-5 pt-20">
+        <div className=" lg:W-[30%] flex flex-col items-center gap-5 pt-20">
           <Banner label="Parceiros da Berecha" />
-          <h1 className="lg:text-6xl text-3xl  text-center font-bold ">
+          <h1 className="lg:text-6xl text-3xl  text-white text-center font-bold ">
             Alguns dos Nossos Parceiros
           </h1>
-          <p className="text-center">
+          <p className="text-center text-white">
             Trabalhamos com os melhores para oferecer soluções de excelência
           </p>
           <Button className="h-[50px] w-full">Torne-se nosso parceiro</Button>
@@ -39,7 +39,7 @@ export default function Patterns() {
           {patterns.map((item, index) => (
             <span
               key={index}
-              className="border gap-4 flex lg:flex-row flex-col w-full p-4 rounded-sm border-white/50"
+              className="border  text-white gap-4 flex lg:flex-row flex-col w-full p-4 rounded-sm border-white/50"
             >
               <div>
                 <img
