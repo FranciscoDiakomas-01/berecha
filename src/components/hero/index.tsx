@@ -36,7 +36,7 @@ export default function Hero() {
 
             <div className="grid lg:grid-cols-2 gap-4 w-full lg:w-[60%] pt-8 place-self-center items-center">
               <Button variant={"outline"} className="h-[50px]">
-                <Users /> Seje parceiro
+                <Users /> Seja parceiro
               </Button>
               <Button className="h-[50px]">
                 {" "}
