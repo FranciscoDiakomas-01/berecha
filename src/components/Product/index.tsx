@@ -141,7 +141,7 @@ const dummyContent = [
     image: flor.src,
   },
   {
-    title: "Soluções de Inteligência Artificial para Empresas",
+    title: "Inteligência Artificial para Empresas",
     description: (
       <>
         <p>

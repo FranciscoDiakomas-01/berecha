@@ -23,7 +23,7 @@ export default function Hero() {
               />
             </motion.div>
 
-            <p className="mt-7 lg:px-50 text-center  text-base text-neutral-600 dark:text-neutral-400">
+            <p className="mt-7 lg:px-50 text-center  text-base text-black dark:text-neutral-400">
               Apresentamos propostas estratégicas para a modernização das
               infraestruturas empresariais em Angola, com foco na integração de
               soluções tecnológicas inovadoras.
