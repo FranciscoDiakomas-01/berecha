@@ -109,12 +109,6 @@ export default function Header() {
                 >
                   Suporte
                 </a>
-                <a
-                  href=""
-                  className=" hover:text-blue-500 transition-colors duration-300"
-                >
-                  Blog
-                </a>
               </ul>
             </nav>
             <span className="grid  gap-2">
