@@ -1,5 +1,4 @@
 "use client";
-
 import Banner from "../Banner";
 import { DotBackground } from "../ui/bg";
 import { LayoutTextFlip } from "@/components/ui/layout-text-flip";
@@ -19,8 +18,8 @@ export default function Hero() {
           <span className="lg:px-60">
             <motion.div className="relative mx-4 my-6 flex flex-col items-center justify-center gap-4 text-center sm:mx-0 sm:mb-0 sm:flex-row">
               <LayoutTextFlip
-                text="Modernizando a Infraestrutura de Pagamentos em"
-                words={["África"]}
+                text="Modernizando modelos de negócios em"
+                words={["África", "Angola"]}
               />
             </motion.div>
 

@@ -21,12 +21,11 @@ export default function Home() {
               href="#"
               className="flex  items-center font-semibold lg:text-2xl space-x-1"
             >
-              <h1>BERACHA </h1>
+              <h1>BERACHA TECH</h1>
               <Image src={start} alt="Start" />
             </a>
             <p className="mt-3 text-sm text-gray-400">
-              Transformando o futuro dos pagamentos em Angola através da
-              inovação tecnológica.
+              Transformando empresas utilizando tecnologia e inovação.
             </p>
           </div>
           {/* Links rápidos */}

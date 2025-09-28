@@ -14,6 +14,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
+import logo from "@/assets/logo.png";
 export default function Header() {
   const { theme, setTheme } = useTheme();
   const [isMounted, setIsmounted] = useState<boolean>(false);
@@ -32,14 +33,13 @@ export default function Header() {
   ];
   return (
     <div>
-      <header className=" lg:flex hidden  z-[300] flex-col fixed top-0 left-0 w-full dark:bg-transparent dark:backdrop-blur-3xl bg-white  lg:px-20 py-3 gap-3">
+      <header className=" lg:flex hidden  z-[300] flex-col fixed top-0 left-0 w-full dark:bg-transparent dark:backdrop-blur-3xl bg-white  lg:px-20 pt-7 py-3 gap-3">
         <span className="flex justify-between border-b pb-2">
           <a
             href="#"
             className="flex  items-center font-semibold lg:text-2xl space-x-1"
           >
-            <h1>BERACHA </h1>
-            <Image src={start} alt="Start" />
+            <Image className="h-8 w-30 object-contain" src={logo} alt="logo" />
           </a>
 
           <nav>
@@ -74,8 +74,7 @@ export default function Header() {
           href="#"
           className="flex  items-center font-semibold lg:text-2xl space-x-1"
         >
-          <h1>BERACHA </h1>
-          <Image src={start} alt="Start" />
+          <Image className="h-8 w-30 object-contain" src={logo} alt="logo" />
         </a>
 
         <Dialog open={isOpen}>
