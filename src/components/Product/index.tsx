@@ -61,9 +61,7 @@ const dummyContent = [
           bancários ou cartões pessoais. Além de funcionarem como uma carteira
           digital segura, os cartões de oferta permitem maior controle dos seus
           gastos, sendo ideais tanto para uso próprio quanto para presentear
-          amigos, familiares ou colaboradores. Com a flexibilidade de recarga e
-          a ampla aceitação em lojas virtuais, nossos cartões oferecem uma
-          experiência de compra simples, prática e 100% segura na internet.
+          amigos, familiares ou colaboradores.
         </p>
       </>
     ),

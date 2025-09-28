@@ -33,9 +33,10 @@ export default function Hero() {
               <Button variant={"outline"} className="h-[50px]">
                 <Users /> Seja parceiro
               </Button>
-              <Button className="h-[50px]">
-                {" "}
-                <Rocket /> Conheça nossas soluções
+              <Button className="h-[50px]" asChild>
+                <a href="#products">
+                  <Rocket /> Conheça nossas soluções
+                </a>
               </Button>
             </div>
           </span>
