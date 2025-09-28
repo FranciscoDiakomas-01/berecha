@@ -11,7 +11,7 @@ export default function Products() {
       className="min-h-screen flex lg:pt-50 pt-32 items-center flex-col gap-5 px-4"
     >
       <Banner label="Nossos produtos" />
-      <p className="text-neutral-500  dark:text-white">
+      <p className="text-neutral-500 text-center  dark:text-white">
         Soluções completas para o mercado angolano
       </p>
       <TracingBeam className="lg:px-6 px-2">
