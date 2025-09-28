@@ -70,7 +70,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  +244 940 23 57 70
+                  +244 931 36 23 21
                 </a>
               </li>
             </ul>
