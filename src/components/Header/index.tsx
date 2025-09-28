@@ -38,7 +38,7 @@ export default function Header() {
             href="#"
             className="flex  items-center font-semibold lg:text-2xl space-x-1"
           >
-            <h1>Beracha </h1>
+            <h1>BERECHA </h1>
             <Image src={start} alt="Start" />
           </a>
 
@@ -74,7 +74,7 @@ export default function Header() {
           href="#"
           className="flex  items-center font-semibold lg:text-2xl space-x-1"
         >
-          <h1>Beracha </h1>
+          <h1>BERECHA </h1>
           <Image src={start} alt="Start" />
         </a>
 
@@ -110,7 +110,10 @@ export default function Header() {
                 >
                   Suporte
                 </a>
-                <a href="" className=" hover:text-blue-500 transition-colors duration-300">
+                <a
+                  href=""
+                  className=" hover:text-blue-500 transition-colors duration-300"
+                >
                   Blog
                 </a>
               </ul>
