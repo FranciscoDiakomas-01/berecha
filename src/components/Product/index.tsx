@@ -6,7 +6,8 @@ import Banner from "../Banner";
 import cover1 from "@/assets/card.jpeg";
 import cover from "@/assets/visa.jpeg";
 import tpa from "@/assets/tpa.jpeg";
-import flor from '@/assets/florest.jpeg'
+import flor from "@/assets/florest.jpeg";
+import ia from "@/assets/ia.jpeg";
 
 export default function Products() {
   return (
@@ -137,6 +138,29 @@ const dummyContent = [
       </>
     ),
     badge: "Soluções Agrícolas",
-    image: flor.src
+    image: flor.src,
+  },
+  {
+    title: "Soluções de Inteligência Artificial para Empresas",
+    description: (
+      <>
+        <p>
+          Nossas <b>soluções agrícolas foram desenvolvidas</b> para apoiar
+          produtores rurais, cooperativas e empresas do setor a alcançarem maior
+          produtividade, eficiência e sustentabilidade no campo. Através de
+          tecnologias modernas e serviços especializados, oferecemos ferramentas
+          que vão desde a gestão inteligente da produção e monitoramento em
+          tempo real, até facilidades de crédito e meios de pagamento adaptados
+          à realidade agrícola. Nosso objetivo é impulsionar o crescimento do
+          agronegócio com soluções que otimizam recursos, reduzem custos e
+          garantem mais controle sobre cada etapa do processo produtivo.
+          Combinando inovação, confiança e proximidade com o produtor, nossas
+          soluções agrícolas ajudam a transformar desafios em oportunidades de
+          crescimento sustentável e rentável no campo.
+        </p>
+      </>
+    ),
+    badge: "soluções de inteligência artificial",
+    image: ia.src,
   },
 ];
