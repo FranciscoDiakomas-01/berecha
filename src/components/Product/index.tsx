@@ -47,11 +47,11 @@ export default function Products() {
 
 const dummyContent = [
   {
-    title: "Cartões de oferta para pagamentos na internet",
+    title: "Cartões de presentes de marcas , para pagamentos na internet",
     description: (
       <>
         <p>
-          Nossos <b>cartões de oferta digitais</b> foram desenvolvidos para
+          Nossos <b>cartões de presentes digitais</b> foram desenvolvidos para
           trazer praticidade, segurança e conveniência nas suas compras online.
           Com eles, você pode realizar pagamentos de forma rápida e confiável em
           diversos sites e plataformas, sem a necessidade de expor dados
