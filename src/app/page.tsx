@@ -106,8 +106,8 @@ export default function Home() {
         </div>
 
         <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} BERACHA Tech. Todos os direitos
-          reservados.
+          © {new Date().getFullYear()} BERACHA TECH - COMÉRCIO E PRESTAÇÃO DE
+          SERVIÇOS. Todos os direitos reservados.
         </div>
       </footer>
     </main>
