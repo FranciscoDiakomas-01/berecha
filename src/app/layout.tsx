@@ -12,11 +12,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "Berecha Tech | Inovação em Soluções Digitais",
+  title: "BERACHA Tech | Inovação em Soluções Digitais",
   description:
-    "A Berecha Tech transforma ideias em soluções digitais inteligentes. Desenvolvimento web, mobile, UI/UX design e consultoria tecnológica para impulsionar o seu negócio.",
+    "A BERACHA Tech transforma ideias em soluções digitais inteligentes. Desenvolvimento web, mobile, UI/UX design e consultoria tecnológica para impulsionar o seu negócio.",
   keywords: [
-    "Berecha Tech",
+    "BERACHA Tech",
     "tecnologia",
     "inovação digital",
     "desenvolvimento web",
@@ -26,19 +26,19 @@ export const metadata: Metadata = {
     "soluções digitais",
     "Angola",
   ],
-  authors: [{ name: "Berecha Tech" }],
+  authors: [{ name: "BERACHA Tech" }],
   openGraph: {
-    title: "Berecha Tech | Inovação em Soluções Digitais",
+    title: "BERACHA Tech | Inovação em Soluções Digitais",
     description:
       "Transformando tecnologia em soluções digitais seguras, modernas e eficientes para empresas e pessoas.",
-    url: "https://berechatech.com",
-    siteName: "Berecha Tech",
+    url: "https://BERACHAtech.com",
+    siteName: "BERACHA Tech",
     images: [
       {
-        url: "/image.jpeg", 
+        url: "/image.jpeg",
         width: 1200,
         height: 630,
-        alt: "Berecha Tech - Soluções Digitais",
+        alt: "BERACHA Tech - Soluções Digitais",
       },
     ],
     locale: "pt_AO",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Berecha Tech | Inovação em Soluções Digitais",
+    title: "BERACHA Tech | Inovação em Soluções Digitais",
     description:
       "Desenvolvimento web, mobile, UI/UX design e consultoria tecnológica em Angola.",
     images: ["/image.jpeg"],

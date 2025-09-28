@@ -21,7 +21,7 @@ export default function Home() {
               href="#"
               className="flex  items-center font-semibold lg:text-2xl space-x-1"
             >
-              <h1>Berecha </h1>
+              <h1>BERACHA </h1>
               <Image src={start} alt="Start" />
             </a>
             <p className="mt-3 text-sm text-gray-400">
@@ -107,7 +107,7 @@ export default function Home() {
         </div>
 
         <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Berecha Tech. Todos os direitos
+          © {new Date().getFullYear()} BERACHA Tech. Todos os direitos
           reservados.
         </div>
       </footer>

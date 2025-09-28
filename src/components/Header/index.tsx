@@ -38,7 +38,7 @@ export default function Header() {
             href="#"
             className="flex  items-center font-semibold lg:text-2xl space-x-1"
           >
-            <h1>BERECHA </h1>
+            <h1>BERACHA </h1>
             <Image src={start} alt="Start" />
           </a>
 
@@ -74,7 +74,7 @@ export default function Header() {
           href="#"
           className="flex  items-center font-semibold lg:text-2xl space-x-1"
         >
-          <h1>BERECHA </h1>
+          <h1>BERACHA </h1>
           <Image src={start} alt="Start" />
         </a>
 

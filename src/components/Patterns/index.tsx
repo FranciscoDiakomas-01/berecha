@@ -25,14 +25,13 @@ export default function Patterns() {
 
       <span className="z-40 bg-black/20 lg:flex-row flex-col gap-5  backdrop-blur-[10px] justify-between relative p-3 w-full h-full flex">
         <div className=" lg:W-[30%] flex flex-col items-center gap-5 pt-20">
-          <Banner label="Parceiros da Berecha" />
+          <Banner label="Parceiros da BERACHA" />
           <h1 className="lg:text-6xl text-3xl  text-white text-center font-bold ">
             Alguns dos Nossos Parceiros
           </h1>
           <p className="text-center text-white">
             Trabalhamos com os melhores para oferecer soluções de excelência
           </p>
-          <Button className="h-[50px] w-full">Torne-se nosso parceiro</Button>
         </div>
 
         <div className="flex flex-col items-center gap-5 pt-20">
