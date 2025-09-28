@@ -4,6 +4,7 @@ import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../ui/tracing-beam";
 import Banner from "../Banner";
 import cover1 from "@/assets/card.jpeg";
+import cover from "@/assets/visa.jpeg";
 export default function Products() {
   return (
     <section
@@ -64,7 +65,7 @@ const dummyContent = [
       </>
     ),
     badge: "Cartões",
-    image: cover1.src,
+    image: cover.src,
   },
   {
     title: "Terminais de pagamento automático modernos",
@@ -112,8 +113,7 @@ const dummyContent = [
       </>
     ),
     badge: "Infraestrutura Visa/Mastercard",
-    image:
-      "https://d64gsuwffb70l.cloudfront.net/68d2ae5ce4dfe32fc6aa4de5_1758637709323_525d5dc8.webp",
+    image: cover1.src,
   },
   {
     title:
