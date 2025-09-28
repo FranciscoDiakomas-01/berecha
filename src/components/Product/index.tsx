@@ -6,6 +6,8 @@ import Banner from "../Banner";
 import cover1 from "@/assets/card.jpeg";
 import cover from "@/assets/visa.jpeg";
 import tpa from "@/assets/tpa.jpeg";
+import flor from '@/assets/florest.jpeg'
+
 export default function Products() {
   return (
     <section
@@ -137,7 +139,6 @@ const dummyContent = [
       </>
     ),
     badge: "Soluções Agrícolas",
-    image:
-      "https://d64gsuwffb70l.cloudfront.net/68d2ae5ce4dfe32fc6aa4de5_1758637723600_e89a365d.webp",
+    image: flor.src
   },
 ];
