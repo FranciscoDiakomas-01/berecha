@@ -4,7 +4,6 @@ import Hero from "@/components/hero";
 import Patterns from "@/components/Patterns";
 import Products from "@/components/Product";
 import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
-import start from "@/assets/AI.png";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
               className="flex  items-center font-semibold lg:text-2xl space-x-1"
             >
               <h1>BERACHA TECH</h1>
-              <Image src={start} alt="Start" />
             </a>
             <p className="mt-3 text-sm text-gray-400">
               Transformando empresas utilizando tecnologia e inovação.

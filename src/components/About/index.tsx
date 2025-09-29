@@ -72,7 +72,6 @@ export default function About() {
             ))}
           </dl>
         </div>
-        <Image src={screen} alt="screen"  className="w-full mt-10"/>
       </div>
     </section>
   );
