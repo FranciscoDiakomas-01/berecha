@@ -1,6 +1,4 @@
 "use client";
-import start from "@/assets/AI.png";
-import Image from "next/image";
 
 export default function Banner({ label }: { label: string }) {
   return (

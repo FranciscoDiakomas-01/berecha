@@ -58,13 +58,6 @@ export default function Header() {
           </nav>
 
           <span className="grid grid-cols-2 gap-2">
-            <Button
-              asChild
-              className="h-[40px] text-primary border-primary/30"
-              variant={"outline"}
-            >
-              <a href="#products">Saiba mais</a>
-            </Button>
             <Button className="h-[40px]">Fale Connosco</Button>
           </span>
         </span>
@@ -113,13 +106,6 @@ export default function Header() {
               </ul>
             </nav>
             <span className="grid  gap-2">
-              <Button
-                asChild
-                className="h-[40px] text-primary border-primary/30"
-                variant={"outline"}
-              >
-                <a href="#products">Saiba mais</a>
-              </Button>
               <Button className="h-[40px]">Fale Connosco</Button>
             </span>
           </DialogContent>
