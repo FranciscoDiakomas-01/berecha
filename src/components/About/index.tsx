@@ -25,7 +25,7 @@ export default function About() {
 
   const stats = [
     { id: 1, name: "Anos de Experiência", value: "+ 2 anos" },
-    { id: 2, name: "Clientes Satisfeitos", value: "+ 50 " },
+    { id: 2, name: "Clientes Satisfeitos", value: "+ 2 " },
     { id: 3, name: "Taxa de Sucesso", value: "100%" },
     { id: 4, name: "Suporte Técnico", value: "24/7" },
   ];

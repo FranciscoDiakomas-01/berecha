@@ -13,7 +13,7 @@ export default function Products() {
   return (
     <section
       id="products"
-      className="min-h-screen flex lg:pt-50 pt-32 items-center flex-col gap-5 px-4"
+      className="min-h-screen flex lg:pt-50 pt-20 items-center flex-col gap-5 px-4"
     >
       <Banner label="Nossos produtos" />
       <p className="text-neutral-500 text-center  dark:text-white">
