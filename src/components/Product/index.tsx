@@ -13,7 +13,7 @@ export default function Products() {
   return (
     <section
       id="products"
-      className="min-h-screen flex lg:pt-50 pt-20 items-center flex-col gap-5 px-4"
+      className="min-h-screen flex lg:pt-10 pt-20 items-center flex-col gap-5 px-4"
     >
       <Banner label="Nossos produtos" />
       <p className="text-neutral-500 text-center  dark:text-white">
@@ -51,7 +51,7 @@ export default function Products() {
 
 const dummyContent = [
   {
-    title: "Cartões de presentes de marcas , para pagamentos na internet",
+    title: "Cartões de presentes de marcas  para pagamentos na internet",
     description: (
       <>
         <p>
@@ -70,7 +70,7 @@ const dummyContent = [
     image: cover.src,
   },
   {
-    title: "Terminais de pagamento automático modernos",
+    title: "Terminais de pagamento automático",
     description: (
       <>
         <p>

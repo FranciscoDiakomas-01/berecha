@@ -32,7 +32,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex lg:pt-50 pt-22 px-4 items-center flex-col gap-5 "
+      className="min-h-screen flex lg:pt-30 pt-22 px-4 items-center flex-col gap-5 "
     >
       <Banner label="Sobre Beracha Tech" />
       <h1 className="lg:text-5xl font-bold">Quem Somos</h1>

@@ -13,7 +13,7 @@ export default function Hero() {
       className="min-h-screen  z-[40] w-full  flex items-center  flex-col p-3"
     >
       <DotBackground>
-        <article className="min-h-screen  z-[40] w-full lg:pt-50 pt-20 flex items-center  flex-col gap-6 p-3">
+        <article className="min-h-screen  z-[40] w-full lg:pt-30 pt-20 flex items-center  flex-col gap-6 p-3">
           <Banner label="O futuro da sua empresa começa aqui" />
           <span className="lg:px-60">
             <motion.div className="relative mx-4 my-6 flex flex-col items-center justify-center gap-4 text-center sm:mx-0 sm:mb-0 sm:flex-row">
